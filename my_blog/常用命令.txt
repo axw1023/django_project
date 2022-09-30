@@ -1,0 +1,10 @@
+进入虚拟环境
+cd C:\demo\django_project
+env\Scripts\activate.bat
+运行服务器
+cd my_blog
+python manage.py runserver
+
+数据迁移
+python manage.py makemigrations
+python manage.py migrate
